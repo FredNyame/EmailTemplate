@@ -1,0 +1,51 @@
+.email-background {
+  background: #eee;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.email-background .email-container, .email-background .pre-header, .email-background .footer {
+  max-width: 500px;
+  background: white;
+  margin: 0 auto;
+  overflow: hidden;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.email-background .pre-header {
+  font-size: 5px;
+  background: #eee;
+  color: #eee;
+}
+
+.email-background img {
+  max-width: 100%;
+}
+
+.email-background p {
+  margin: 20px;
+  font-size: 18px;
+  color: #333;
+  line-height: 1.5;
+}
+
+.email-background .cta {
+  margin: 20px;
+}
+
+.email-background .cta a {
+  background: #f53d68;
+  color: #fff;
+  display: inline-block;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.email-background .footer {
+  background: none;
+  padding: 20px;
+  font-size: 12px;
+}
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,45 @@
+.email-background{
+  background: #eee;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  .email-container{
+    max-width:500px;
+    background: white;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 5px;
+    text-align: center;
+  }
+  .pre-header{
+    @extend .email-container;
+    font-size: 5px;
+    background: #eee;
+    color: #eee;
+  }
+  img{
+    max-width: 100%;
+  }
+  p{
+    margin: 20px;
+    font-size: 18px;
+    color: #333;
+    line-height: 1.5;
+  }
+  .cta{
+    margin: 20px;
+    a{
+      background: #f53d68;
+      color: #fff;
+      display: inline-block;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+  }
+  .footer{
+    @extend .email-container;
+    background: none;
+    padding: 20px;
+    font-size: 12px;
+  }
+}
